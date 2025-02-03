@@ -135,4 +135,30 @@
     "https://www.avvo.com/attorneys/10031-ny-daniel-miklos-1234567.html"
   ]
 }
-
+///// 
+///// Schema for Breadcrumbs ///
+///
+{
+  "@context": "https://schema.org",
+  "@type": "BreadcrumbList",
+  "itemListElement": [
+    {
+      "@type": "ListItem",
+      "position": 1,
+      "name": "Home",
+      "item": "https://ask4sam.net/"
+    },
+    {
+      "@type": "ListItem",
+      "position": 2,
+      "name": "Car Accident",
+      "item": "https://ask4sam.net/car-accident/"
+    },
+    {
+      "@type": "ListItem",
+      "position": 3,
+      "name": "Bronx Car Accident Lawyers",
+      "item": "https://ask4sam.net/bronx-car-accident-lawyers/"
+    }
+  ]
+}
