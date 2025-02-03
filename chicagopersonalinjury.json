@@ -1,0 +1,88 @@
+//// Schema for Organization ///
+
+{
+  "@context": "https://schema.org",
+  "@type": "Organization",
+  "name": "Chicago Injury Law, LLC",
+  "url": "https://chicagoinjurylaw.com/",
+  "logo": "https://chicagoinjurylaw.com/path-to-logo.jpg",
+  "sameAs": [
+    "https://www.facebook.com/ChicagoInjuryLaw",
+    "https://www.linkedin.com/company/chicago-injury-law"
+  ],
+  "contactPoint": {
+    "@type": "ContactPoint",
+    "telephone": "+1-312-225-5000",
+    "contactType": "Customer Service",
+    "areaServed": "US",
+    "availableLanguage": "English"
+  }
+}
+////
+///Schema for Local Business ///
+///
+{
+  "@context": "https://schema.org",
+  "@type": "LegalService",
+  "name": "Chicago Injury Law, LLC",
+  "image": "https://chicagoinjurylaw.com/path-to-office-image.jpg",
+  "address": {
+    "@type": "PostalAddress",
+    "streetAddress": "161 N. Clark Street, Suite 3250",
+    "addressLocality": "Chicago",
+    "addressRegion": "IL",
+    "postalCode": "60601",
+    "addressCountry": "US"
+  },
+  "geo": {
+    "@type": "GeoCoordinates",
+    "latitude": 41.8858,
+    "longitude": -87.6315
+  },
+  "url": "https://chicagoinjurylaw.com/",
+  "telephone": "+1-312-225-5000",
+  "openingHours": "Mo-Fr 09:00-17:00",
+  "priceRange": "$$$"
+}
+////
+/// Schema for Person ///
+///
+{
+  "@context": "https://schema.org",
+  "@type": "Person",
+  "name": "John Nisivaco",
+  "jobTitle": "Partner",
+  "worksFor": {
+    "@type": "LegalService",
+    "name": "Chicago Injury Law, LLC",
+    "url": "https://chicagoinjurylaw.com/"
+  },
+  "image": "https://chicagoinjurylaw.com/path-to-john-nisivaco-photo.jpg",
+  "url": "https://chicagoinjurylaw.com/our-team/john-nisivaco/",
+  "sameAs": [
+    "https://www.linkedin.com/in/john-nisivaco/",
+    "https://www.avvo.com/attorneys/60601-il-john-nisivaco-123456.html"
+  ]
+}
+//// 
+/// Schema for review ///
+///
+{
+  "@context": "https://schema.org",
+  "@type": "Review",
+  "reviewBody": "I came to John Nisivaco after being in a hit and run accident as a pedestrian. It was a very tough time for me and my family. When we contacted John we felt much more at ease.",
+  "author": {
+    "@type": "Person",
+    "name": "Dannish R."
+  },
+  "itemReviewed": {
+    "@type": "LegalService",
+    "name": "Chicago Injury Law, LLC",
+    "url": "https://chicagoinjurylaw.com/"
+  },
+  "reviewRating": {
+    "@type": "Rating",
+    "ratingValue": "5",
+    "bestRating": "5"
+  }
+}
