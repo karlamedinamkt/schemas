@@ -1,4 +1,4 @@
-//// Schema local office Garden City ///
+/// Schema local office Garden City ///
 {
   "@context": "https://schema.org",
   "@type": "LegalService",
