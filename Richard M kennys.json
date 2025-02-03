@@ -18,3 +18,54 @@
     "bestRating": "5"
   }
 }
+////
+////Schema for Local business Office in Bronx ///
+///
+{
+  "@context": "https://schema.org",
+  "@type": "LegalService",
+  "name": "Silberstein, Awad & Miklos, P.C.",
+  "url": "https://ask4sam.net/",
+  "logo": "https://ask4sam.net/logo.png",
+  "image": "https://ask4sam.net/bronx-office.jpg",
+  "description": "Experienced personal injury attorneys serving the Bronx, NY.",
+  "telephone": "(718) 204-8000",
+  "address": {
+    "@type": "PostalAddress",
+    "streetAddress": "2825 3rd Ave. Suite 301",
+    "addressLocality": "Bronx",
+    "addressRegion": "NY",
+    "postalCode": "10455",
+    "addressCountry": "US"
+  },
+  "geo": {
+    "@type": "GeoCoordinates",
+    "latitude": 40.8198,
+    "longitude": -73.9106
+  },
+  "openingHours": "Mo-Fr 08:00-20:00, Sa-Su 09:00-17:00",
+  "sameAs": [
+    "https://www.facebook.com/Ask4Sam.net/"
+  ]
+}
+
+/// 
+////Schema markup for Person ///
+///
+{
+  "@context": "https://schema.org",
+  "@type": "Person",
+  "name": "James P. Lundy",
+  "jobTitle": "Partner",
+  "worksFor": {
+    "@type": "LegalService",
+    "name": "The Law Office of Richard M. Kenny",
+    "url": "https://www.rmkinjurylaw.com/"
+  },
+  "image": "https://www.rmkinjurylaw.com/wp-content/uploads/2023/01/james-p-lundy.jpg",
+  "url": "https://www.rmkinjurylaw.com/about/james-p-lundy/",
+  "sameAs": [
+    "https://www.linkedin.com/in/james-p-lundy-123456789/",
+    "https://www.avvo.com/attorneys/10001-ny-james-lundy-1234567.html"
+  ]
+}
