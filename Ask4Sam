@@ -1,0 +1,138 @@
+//// Schema local office Garden City ///
+{
+  "@context": "https://schema.org",
+  "@type": "LegalService",
+  "name": "Silberstein, Awad & Miklos, P.C.",
+  "url": "https://ask4sam.net/",
+  "logo": "https://ask4sam.net/logo.png",
+  "image": "https://ask4sam.net/office.jpg",
+  "description": "Experienced personal injury attorneys serving New York.",
+  "telephone": "(516) 832-7777",
+  "openingHours": "Mo-Fr 08:00-20:00, Sa-Su 09:00-17:00",
+  "address": {
+    "@type": "PostalAddress",
+    "streetAddress": "600 Old Country Road",
+    "addressLocality": "Garden City",
+    "addressRegion": "NY",
+    "postalCode": "11530",
+    "addressCountry": "US"
+  },
+  "geo": {
+    "@type": "GeoCoordinates",
+    "latitude": 40.7371,
+    "longitude": -73.6107
+  },
+  "sameAs": [
+    "https://www.facebook.com/Ask4Sam.net/"
+  ]
+}
+
+//// Schema local offuce Hauppauge ///
+{
+  "@context": "https://schema.org",
+  "@type": "LegalService",
+  "name": "Silberstein, Awad & Miklos, P.C.",
+  "url": "https://ask4sam.net/",
+  "logo": "https://ask4sam.net/logo.png",
+  "image": "https://ask4sam.net/office.jpg",
+  "description": "Experienced personal injury attorneys serving New York.",
+  "telephone": "(631) 390-0001",
+  "openingHours": "Mo-Fr 08:00-20:00, Sa-Su 09:00-17:00",
+  "address": {
+    "@type": "PostalAddress",
+    "streetAddress": "150 Motor Parkway Suite 401",
+    "addressLocality": "Hauppauge",
+    "addressRegion": "NY",
+    "postalCode": "11788",
+    "addressCountry": "US"
+  },
+  "geo": {
+    "@type": "GeoCoordinates",
+    "latitude": 40.8065,
+    "longitude": -73.2523
+  },
+  "sameAs": [
+    "https://www.facebook.com/Ask4Sam.net/"
+  ]
+}
+
+////Schema local office Newy york (amsterdam ave)////
+{
+  "@context": "https://schema.org",
+  "@type": "LegalService",
+  "name": "Silberstein, Awad & Miklos, P.C.",
+  "url": "https://ask4sam.net/",
+  "logo": "https://ask4sam.net/logo.png",
+  "image": "https://ask4sam.net/office.jpg",
+  "description": "Experienced personal injury attorneys serving New York.",
+  "telephone": "(212) 233-6600",
+  "openingHours": "Mo-Fr 08:00-20:00, Sa-Su 09:00-17:00",
+  "address": {
+    "@type": "PostalAddress",
+    "streetAddress": "1850 Amsterdam Ave",
+    "addressLocality": "New York",
+    "addressRegion": "NY",
+    "postalCode": "10031",
+    "addressCountry": "US"
+  },
+  "geo": {
+    "@type": "GeoCoordinates",
+    "latitude": 40.8259,
+    "longitude": -73.9465
+  },
+  "sameAs": [
+    "https://www.facebook.com/Ask4Sam.net/"
+  ]
+}
+
+////
+//// Schema for EBook ///
+/////
+
+{
+  "@context": "https://schema.org",
+  "@type": "Book",
+  "name": "5 Things You Didn’t Know About Medical Malpractice",
+  "author": {
+    "@type": "Organization",
+    "name": "Silberstein, Awad & Miklos, P.C."
+  },
+  "publisher": {
+    "@type": "Organization",
+    "name": "Silberstein, Awad & Miklos, P.C.",
+    "url": "https://ask4sam.net/"
+  },
+  "datePublished": "2024-02-03",
+  "bookFormat": "https://schema.org/EBook",
+  "image": "https://ask4sam.net/path-to-ebook-image.jpg",
+  "url": "https://ask4sam.net/",
+  "description": "A guide to help you after an injury due to a doctor's negligence.",
+  "about": "Medical Malpractice, Personal Injury, Legal Guide",
+  "sameAs": [
+    "https://www.facebook.com/Ask4Sam.net/",
+    "https://ask4sam.net/"
+  ],
+  "isAccessibleForFree": "True"
+}
+
+/// 
+///Schema for Person ///
+///
+{
+  "@context": "https://schema.org",
+  "@type": "Person",
+  "name": "Daniel P. Miklos",
+  "jobTitle": "Attorney",
+  "worksFor": {
+    "@type": "LegalService",
+    "name": "Silberstein, Awad & Miklos, P.C.",
+    "url": "https://ask4sam.net/"
+  },
+  "url": "https://ask4sam.net/attorneys/daniel-p-miklos/",
+  "image": "https://ask4sam.net/path-to-daniel-miklos-image.jpg",
+  "sameAs": [
+    "https://www.linkedin.com/in/daniel-p-miklos/",
+    "https://www.avvo.com/attorneys/10031-ny-daniel-miklos-1234567.html"
+  ]
+}
+
