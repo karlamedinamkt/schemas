@@ -1,0 +1,20 @@
+//// Schema for Review ///
+{
+  "@context": "https://schema.org",
+  "@type": "Review",
+  "reviewBody": "I unequivocally recommend Mr. Kenny and his team for personal injury cases caused by car accidents. Their profound legal expertise and dedication to clients are invaluable. From the moment my son Esteban contacted him, Mr. Kenny immediately responded, personally visiting the hospital and taking on our case while I was hospitalized due to a car accident.",
+  "author": {
+    "@type": "Person",
+    "name": "Carlos C."
+  },
+  "itemReviewed": {
+    "@type": "LegalService",
+    "name": "The Law Office of Richard M. Kenny",
+    "url": "https://www.rmkinjurylaw.com/"
+  },
+  "reviewRating": {
+    "@type": "Rating",
+    "ratingValue": "5",
+    "bestRating": "5"
+  }
+}
