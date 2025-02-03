@@ -1,0 +1,46 @@
+/// Schema for articles ///
+{
+  "@context": "https://schema.org",
+  "@type": "Article",
+  "headline": "Erin Clifford Shares How Lawyers Can Embrace Wellness to Create Well-Being",
+  "author": {
+    "@type": "Person",
+    "name": "Erin Clifford"
+  },
+  "publisher": {
+    "@type": "Organization",
+    "name": "Clifford Law Offices",
+    "logo": {
+      "@type": "ImageObject",
+      "url": "https://www.cliffordlaw.com/path-to-logo.jpg"
+    }
+  },
+  "datePublished": "2025-01-13",
+  "url": "https://www.cliffordlaw.com/erin-clifford-shares-how-lawyers-can-embrace-wellness-to-create-well-being/",
+  "image": "https://www.cliffordlaw.com/path-to-article-image.jpg",
+  "description": "In an article for Litigation News, Erin Clifford shares insights on how attorneys can create balance beyond the courtroom to achieve harmony in their lives.",
+  "mainEntityOfPage": "https://www.cliffordlaw.com/erin-clifford-shares-how-lawyers-can-embrace-wellness-to-create-well-being/"
+ "availableLanguage": ["English", "Spanish"]
+}
+
+/// 
+/// Schema for person ///
+///
+{
+  "@context": "https://schema.org",
+  "@type": "Person",
+  "name": "Erin Clifford",
+  "jobTitle": "Managing Director",
+  "worksFor": {
+    "@type": "Organization",
+    "name": "Clifford Law Offices",
+    "url": "https://www.cliffordlaw.com/"
+  },
+  "image": "https://www.cliffordlaw.com/wp-content/uploads/2023/01/erin-clifford.jpg",
+  "url": "https://www.cliffordlaw.com/attorneys/erin-clifford/",
+  "sameAs": [
+    "https://www.linkedin.com/in/erin-clifford-123456789/",
+    "https://www.avvo.com/attorneys/60601-il-erin-clifford-1234567.html"
+  ]
+}
+
